@@ -1,8 +1,13 @@
-/*! style.css  */
-
 body {
     background-color: black;
+    color: white;
+    font-family: Oxygen;
     text-align: center;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
 }
 
 a {
@@ -11,27 +16,39 @@ a {
 }
 
 h1 {
-    color: white;
-    font-family: Verdana;
-    font-size: 50px;
-    font-weight: normal;
-    text-align: center;
+    font-size: 40px;
 }
 
 h2 {
-    color: white;
-    font-family: Verdana;
-    font-size: 42px;
-    font-weight: 300;
+    font-size: 35px;
 }
 
 h4 {
-    color: gray;
-    font-family: Verdana;
-    font-size: 21px;
+    font-size: 20px;
+    color: grey;
+}
+
+video {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.camp {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 footer {
-    color: gray;
-    text-align: right;
+    height: 60px;
+    padding-top: 30px;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 600px) {
+    video {
+        width: 80%;
+    }
 }
