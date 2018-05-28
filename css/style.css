@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Oxygen;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+a {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 20px;
+    color: grey;
+}
+
+video {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.camp {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+footer {
+    height: 60px;
+    padding-top: 30px;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 600px) {
+    video {
+        width: 80%;
+    }
+}
